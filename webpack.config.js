@@ -1,21 +1,24 @@
 module.exports = {
- entry: ["./src/app.js"],
- output: {
-   filename: "./dist/app.js"
- },
- module: {
-   loaders: [
-     {
-       test: /\.es6$/,
-       exclude: /node_modules/,
-       loader: 'babel-loader',
-       query: {
-         presets: ['react', 'es2015'] 
-       }
-     }
-   ]
- },
- resolve: {
-   extensions: ['', '.js', '.es6']
- },
+    entry: {
+        typescript: './src/app/main.ts',
+        html: "./src/index.html"
+    },
+    output: {
+        path: __dirname + '/dist',
+        publicPath: 'dist/',
+        filename: 'bundle.js'
+    },
+    module: {
+        loaders: [{
+            test: /\.ts$/,
+            loaders:['ts-loader'],
+            exclude: /node_modules/
+        }, {
+            test: /\.html$/,
+            loader: "file?name=[name].[ext]",
+        }]
+    },
+    resolve: {
+        extensions: ['', '.js', '.ts']
+    },
 }
