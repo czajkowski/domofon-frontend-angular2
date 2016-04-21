@@ -1,5 +1,5 @@
 {
-  "name": "domofon-frontend",
+  "name": "domofon-frontend-angular2",
   "version": "1.0.0",
   "description": "Front-end application for domofon-api",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blstream/domofon-frontend.git"
+    "url": "git+https://github.com/czajkowski/domofon-frontend-angular2.git"
   },
   "author": "CodeSpace",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blstream/domofon-frontend/issues"
+    "url": "https://github.com/czajkowski/domofon-frontend-angular2/issues"
   },
-  "homepage": "https://github.com/blstream/domofon-frontend#readme",
+  "homepage": "https://github.com/czajkowski/domofon-frontend-angular2#readme",
   "dependencies": {
     "@angular2-material/core": "^2.0.0-alpha.2",
     "@angular2-material/button": "^2.0.0-alpha.2",
