@@ -5,8 +5,8 @@ import {AdminPanelComponent} from './admin/components/admin-panel.component';
 
 @Component({
     selector: 'domofon-app',
-    templateUrl: 'app/app.component.html',
-    styleUrls: ['app/app.component.css'],
+    template: require('./app.component.html'),
+    styles: [ require('./app.component.css') ],
     directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([

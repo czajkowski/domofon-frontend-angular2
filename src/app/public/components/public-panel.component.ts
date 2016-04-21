@@ -2,8 +2,8 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'domofon-app',
-    templateUrl: 'app/public/components/public-panel.component.html',
-    styleUrls: ['app/public/components/public-panel.component.css']
+    template: require('./public-panel.component.html'),
+    styles: [require('./public-panel.component.css')]
 })
 export class PublicPanelComponent {
 
