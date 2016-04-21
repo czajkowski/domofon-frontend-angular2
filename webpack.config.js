@@ -12,7 +12,7 @@ module.exports = {
         loaders: [{
             test: /\.ts$/,
             loaders:['ts-loader'],
-            exclude: /node_modules/
+            exclude: /node_modules|typings/
         }, {
             test: /\.html$/,
             loader: "file?name=[name].[ext]",
