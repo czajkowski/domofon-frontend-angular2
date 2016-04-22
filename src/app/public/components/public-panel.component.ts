@@ -6,5 +6,5 @@ import {Component} from 'angular2/core';
     styles: [require('./public-panel.component.css')]
 })
 export class PublicPanelComponent {
-
+    name: ""
 }

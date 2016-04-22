@@ -2,11 +2,13 @@
 
 <md-card>
   <md-card-content>
-    <md-card-subtitle>Subtitle first</md-card-subtitle>
+    <md-card-subtitle>Hello {{name}}!</md-card-subtitle>
     <form>
       <md-input
-        placeholder="Submit Local State to App State"
-        autofocus>
+        placeholder="Your name?"
+        autofocus
+        [(ngModel)]="name"
+        >
       </md-input>
 
       <button md-raised-button color="primary">Submit Value</button>

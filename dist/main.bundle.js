@@ -118,7 +118,7 @@ webpackJsonp([0],{
 /***/ 272:
 /***/ function(module, exports) {
 
-	module.exports = "<h2>Public panel</h2>\r\n\r\n<md-card>\r\n  <md-card-content>\r\n    <md-card-subtitle>Subtitle first</md-card-subtitle>\r\n    <form>\r\n      <md-input\r\n        placeholder=\"Submit Local State to App State\"\r\n        autofocus>\r\n      </md-input>\r\n\r\n      <button md-raised-button color=\"primary\">Submit Value</button>\r\n    </form>\r\n\r\n  </md-card-content>\r\n</md-card>\r\n"
+	module.exports = "<h2>Public panel</h2>\r\n\r\n<md-card>\r\n  <md-card-content>\r\n    <md-card-subtitle>Hello {{name}}!</md-card-subtitle>\r\n    <form>\r\n      <md-input\r\n        placeholder=\"Your name?\"\r\n        autofocus\r\n        [(ngModel)]=\"name\"\r\n        >\r\n      </md-input>\r\n\r\n      <button md-raised-button color=\"primary\">Submit Value</button>\r\n    </form>\r\n\r\n  </md-card-content>\r\n</md-card>\r\n"
 
 /***/ },
 
